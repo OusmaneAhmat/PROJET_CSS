@@ -1,0 +1,81 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    
+}
+main{
+    background-color:  hsl(0, 0%, 100%);
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 30px;
+}
+.container{
+    padding: 20px;
+    margin-right: 19px;
+}
+img{
+    width: 560px;
+    border-radius: 18px;
+}
+.section1{
+    background-color:  hsl(330, 100%, 98%);
+    /* margin-left: 10px; */
+    padding:15px;
+    border-radius: 8px;
+}
+.titre1{
+    color: hsl(332, 51%, 32%);
+}
+
+h2{
+    color: hsl(332, 51%, 32%) ;
+    font-family: "Young Serif", serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    border-bottom: 1px solid  hsl(30, 18%, 87%); 
+}
+
+td {
+    padding: 15px;
+}
+.calories, .carps, .gramme, .gamme{
+    color:hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+.eggs, .pan, .cook, .optionnal, .serve, .Enjoy{
+    font-weight: bold;
+   
+}
+li{
+    padding-left: 15px;
+}
+.simple{
+    font-family: "Young Serif", serif;
+}
+.Total, .Preparation, .Cooking{
+    font-weight: bold;
+}
+li::marker{
+    color: #c10e0e;
+    font-weight: bold;   
+}
+.derniere-ligne{
+    border-bottom: none;
+}
+hr{
+    color:hsl(15, 2%, 44%);
+}
+li{
+    margin-bottom: 10px;
+}
+.chiffre{
+    padding: 18px;
+}
